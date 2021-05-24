@@ -1,0 +1,153 @@
+.menu-hamburger div:first-child {
+  height: 20px;
+  cursor: pointer
+}
+
+
+.sidenav-icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3d3a3ac7;
+  overflow-x: hidden;
+  padding-top: 0
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 35px;
+  margin-left: 230px;
+  color: #fff;
+  right: 25px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px
+}
+
+@media screen and (max-height:450px) {
+  .sidenav {
+      padding-top: 0
+  }
+  .sidenav a {
+      font-size: 18px
+  }
+}
+@media only screen and (min-width: 1920px) and (max-width: 3072px) {
+ 
+  .topnav{
+   width: 100%;
+  }
+  .submission-card{
+     width: 88%;
+  }
+  .incoming-sub-page-divider{
+    width: 53%;
+  }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .submission-form-container{
+    width: 90%;
+ }
+ .incoming-sub-page-divider{
+  width: 94%;
+}
+}
+ @media only screen and (min-width: 900px) and (max-width: 1440px) {
+  .submission-form-container{
+    width: 77%;
+ }
+ }
+ @media only screen and (min-width: 1600px) and (max-width: 2560px) {
+  .submission-form-container{
+    width: 72%;
+ }
+ /* .dashboard-container {
+  
+  margin-left: 5%;
+} */
+
+ }
+ @media only screen and (min-width: 1080px) and (max-width: 1920px) {
+ 
+  .incoming-sub-page-divider{
+    width: 112%;
+    /* width: 97%; */
+  }
+ }
+ @media only screen and (min-width: 2160px) and (max-width: 3840px) {
+ 
+  .topnav{
+   width: 100%;
+  }
+  .submission-form-container{
+    width: 38%;
+  }
+  /* .incoming-sub-page-divider{
+    width: 29%;
+  } */
+ }
+
+
+.sidenav-logo {
+  border-bottom: 2px solid #484848;
+  margin: 0 auto;
+  text-align: center
+}
+
+.sidenav-logo img {
+  height: 110px
+}
+
+.sidenav-links {
+  margin-top: 5px
+}
+
+.sidenav-link {
+  color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 16px
+}
+
+.active-link {
+  background: #faf6e81c
+}
+
+.sidenav-sublink ul {
+  margin: 0
+}
+
+.sidenav-sublink li {
+  list-style: none;
+  font-size: 14px;
+  padding: 5px
+}
+
+.sidenav-body {
+  width: 300px;
+  height: 100%;
+  background-color: #3d3a3a
+}
+
